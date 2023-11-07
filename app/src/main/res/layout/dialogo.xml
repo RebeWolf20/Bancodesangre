@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/rojo"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_rut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:hint="Rut o Pasaporte"
+        />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:hint="Nombre Completo" />
+
+    <EditText
+        android:id="@+id/et_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:hint="Fecha de nacimiento" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:hint="Email" />
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:hint="Telefono" />
+    <EditText
+        android:id="@+id/et_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:hint="Genero" />
+    <EditText
+        android:id="@+id/et_sangre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:hint="Grupo Sanguineo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_agregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Agregar" />
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cancelar" />
+    </LinearLayout>
+</LinearLayout>
